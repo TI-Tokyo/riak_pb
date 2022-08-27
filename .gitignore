@@ -1,33 +1,59 @@
-# Erlang
-.eunit/*
-deps/*
-priv/*
-*.o
-ebin/*.beam
-ebin/riak_pb.app
-include/*_pb.hrl
-src/*_pb.erl
-doc/*
-.qc
+# ===== Common Erlang Tools =====
+*.coverdata
+*.crashdump
+*.eqc
+*.log
+*_plt
+.cache/
 .eqc-info
-current_counterexample.eqc
-src/riak_pb_messages.erl
-.local_dialyzer_plt
-dialyzer_unhandled_warnings
-dialyzer_warnings
-.rebar/*
+.eqc
+.erlang.cookie
+.erlang.mk
+.eunit/
+.pulse/
+.qc/
+.rebar/
 .rebar3/
 _build/
-.DS_Store
-test/*.beam
+_checkouts/
+_deps/
+_test/
+ebin/
+log/
+logs/
 rebar.lock
 
-# Java
-target/*
-
-#IntelliJ
+# ===== Common Development Tools =====
+*.bak
+*.dump
+*.iml
+*.orig
+*.plt
+*.sublime-project
+*.sublime-workspace
+*.swo
+*.swp
+*.tmp
+*~
+.DS_Store
+.concrete/
 .idea/
-riak_pb.iml
+.project
+.settings/
+.tm_properties
+.vscode/
+/*.txt
+erln8.config
+tmp/
 
-# C
-c/*
+# ===== Project-specific Elements =====
+
+deps/
+dialyzer_unhandled_warnings
+dialyzer_warnings
+doc/
+include/*_pb.hrl
+priv/
+src/*_pb.erl
+src/riak_pb_messages.erl
+test/*.beam
