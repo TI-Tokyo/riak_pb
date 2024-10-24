@@ -1,6 +1,6 @@
 # Riak Protocol Buffers Messages
 
-![Riak PB OpenRiak Status](https://github.com/OpenRiak/riak_pb/actions/workflows/erlang.yml/badge.svg?branch=openriak-3.2)
+![Riak PB OpenRiak Status](https://github.com/OpenRiak/riak_pb/actions/workflows/erlang.yml/badge.svg?branch=openriak-3.4)
 
 This repository contains the message definitions for the Protocol
 Buffers-based interface to [Riak](https://github.com/basho/riak) and
